@@ -25,7 +25,7 @@ app.use(express.static(publicPath))
 app.get('', (req, res) => {
     res.render('index.hbs', {
         title: 'Weather',
-        name: 'Chantel Middleton'
+        name: 'Steve Grey'
     })
 })
 
@@ -39,7 +39,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help.hbs', {
         title: 'Help',
-        name: 'Chantel Middleton',
+        name: 'Steve Grey',
         helpText: 'This is the help blurb'
     })
 })
