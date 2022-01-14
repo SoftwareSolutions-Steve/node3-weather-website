@@ -32,7 +32,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
         title: 'About',
-        name: 'Chantel Middleton'
+        name: 'Steve Grey'
     })
 })
 
